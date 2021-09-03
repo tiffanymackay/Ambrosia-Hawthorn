@@ -74,16 +74,17 @@ header {
     max-width: 90%;
     margin: 0 auto;
 }
-
 nav ul {
     display: flex;
     justify-content: space-around;
+    font-size: 1.25rem;
 }
 nav ul li {
-    padding-left: 30px;
+    padding-left: 35px;
 }
 h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
+    font-family: 'IM Fell English SC', serif;
 }
 .intro-img {
     height: 425px;
@@ -99,6 +100,9 @@ p {
 .intro-text {
     padding-left: 50px;
     padding-top: 150px;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    font-weight: lighter;
 }
 .intro-section {
     max-width: 60%;
