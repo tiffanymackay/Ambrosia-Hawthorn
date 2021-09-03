@@ -132,6 +132,7 @@ p {
 }
 .main-button:hover {
     background-color: rgb(143, 119, 105);
+    cursor: pointer;
 }
 .body-container {
     max-width: 65%;
