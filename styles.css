@@ -31,7 +31,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    scroll-behavior: smooth;
 }
 ol, ul {
 	list-style: none;
@@ -55,6 +54,7 @@ html {
     font-family: 'IM Fell Double Pica', serif;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 .background {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/Hero\ image.png");
