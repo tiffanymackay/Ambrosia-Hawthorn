@@ -276,8 +276,8 @@ div ul li {
         max-width: 80%;
     }
     .intro-img {
-        max-width: 90%;
-        object-fit: cover;
+        max-width: 70%;
+        object-fit: contain;
     }
     .intro-text {
         padding-top: 20px;
