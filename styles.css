@@ -200,10 +200,14 @@ p {
     margin: auto;
     padding: 60px 20px 30px 20px;
 }
-div ul li {
-    padding-left: 35px;
+
+small {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 
+/* Responsive styles */
 @media (max-width: 1200px) {
     .background {
         background-size: cover;
