@@ -203,8 +203,16 @@ div ul li {
     padding-left: 35px;
 }
 
+@media (max-width: 1200px) {
+    .background {
+        background-size: cover;
+        max-height: 500px;
+    }
+}
+
 
 @media (min-width:851px) and (max-width: 1030px) {
+
     .image-rows {
         gap: 20px;
     }
@@ -214,7 +222,11 @@ div ul li {
 @media (max-width: 850px) {
     header {
         display: block;
-        max-width: 70%;  
+        max-width: 90%; 
+        text-align: center; 
+    }
+    nav {
+        padding-top: 20px;
     }
     .intro-section {
         text-align: center;
@@ -238,10 +250,17 @@ div ul li {
 }
 
 @media (max-width: 500px) {
+    .background {
+        background-size: cover;
+        max-height: 600px;
+    }
     header {
         margin: 0 auto;
         padding: 10px;
         text-align: center;
+    }
+    nav ul {
+        justify-content: center;
     }
     nav ul li {
         padding:10px 20px;
@@ -257,7 +276,7 @@ div ul li {
     }
     .intro-img {
         max-width: 90%;
-        object-fit: contain;
+        object-fit: cover;
     }
     .text-section {
         max-width: 100%;
