@@ -272,11 +272,18 @@ div ul li {
         flex-wrap: wrap;
     }
     .intro-section {
-        padding-top: 10px;
+        padding-top: 20px;
+        max-width: 80%;
     }
     .intro-img {
         max-width: 90%;
         object-fit: cover;
+    }
+    .intro-text {
+        padding-top: 20px;
+    }
+    .body-container {
+        padding-top: 10px;
     }
     .text-section {
         max-width: 100%;
